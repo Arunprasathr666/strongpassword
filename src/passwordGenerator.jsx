@@ -1,6 +1,6 @@
 import React from "react";
 
-export const PasswordGenerator = () => {
+ export const PasswordGenerator = () => {
     return <div className="password-generator">
         <h2>Strong Password Generator</h2>
         <div className="input-group">
@@ -30,3 +30,4 @@ export const PasswordGenerator = () => {
         </div>
     </div>
 };
+
