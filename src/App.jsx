@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import { PasswordGenerator } from './passwordGenerator'
+import { PasswordGenerator } from "./PasswordGenerator";
+
 
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
 
   return (
     <>
-      <PasswordGenerator/>
-    </>
+    <PasswordGenerator/>
+      </>
+      
   )
 }
 
