@@ -11,6 +11,7 @@ export const PasswordGenerator = () => {
 
     const [password, setPassword] = useState("");
 
+    //this is the strong password
     const generatePassword = ()=> {
         let charset ="";
         if(includeUppercase) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
